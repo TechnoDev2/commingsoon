@@ -9372,6 +9372,10 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .preloader-logo {
+    /* flex flex-col items-center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     z-index: 10;
     transform: translate3d(0, -70%, 0);
